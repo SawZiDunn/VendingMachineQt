@@ -63,11 +63,3 @@ A C++ program that simulates a vending machine with user and admin modes. This p
     - Perform actions as prompted by the program.
 
 ## Code Structure
-
--   main.cpp : Allows users to choose between User and Admin Modes initializes the database if not present.
--   db_setup.h : Functions for setting up and populating the database.
--   user.h : Implements user-specific actions
--   admin.h : Implements admin-specific actions
--   db_controller.h : Contains functions that directly interact with the SQLite database
--   utils.h : Helper functions
--   moneyInstance.h : Defines a structure to represent money instances for denomination handling.
