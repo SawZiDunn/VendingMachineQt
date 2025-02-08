@@ -1,0 +1,4 @@
+to make cpp standard 17, add this
+-DCMAKE_CXX_STANDARD=17
+
+choose minGW for compiler in build
