@@ -1,4 +1,4 @@
-# Vending Machine Program in C++
+# Vending Machine Application in C++ With QT
 
 A C++ program that simulates a vending machine with user and admin modes. This project demonstrates SQLite database integration (a popular relational database) and simulation logic, while also serving as a practice project for Object-Oriented Programming (OOP) concepts.
 
@@ -31,7 +31,7 @@ A C++ program that simulates a vending machine with user and admin modes. This p
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/SawZiDunn/vending-machine.git
+    git clone https://github.com/SawZiDunn/VendingMachineQt.git
     ```
 
 2. Go to Project Directory:
