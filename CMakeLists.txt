@@ -31,9 +31,6 @@ qt_add_executable(vending-machine-gui
     setup_db.h
     refillstock.h refillstock.cpp refillstock.ui
 
-
-
-
 )
 
 # ✅ Link Libraries (QtSql for SQLite)

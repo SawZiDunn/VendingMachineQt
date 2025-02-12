@@ -1,6 +1,23 @@
-# Vending Machine Application in C++ With QT
+# QT Vending Machine System
 
-A C++ program that simulates a vending machine with user and admin modes. This project demonstrates SQLite database integration (a popular relational database) and simulation logic, while also serving as a practice project for Object-Oriented Programming (OOP) concepts.
+This is a C++ GUI Application for Vending Machine Management with User and Admin modes. This project demonstrates SQLite database integration (a popular relational database) and QT which is a cross-platform GUI Framework.
+
+## Screenshots
+### User Mode
+
+![](./demos/user/1.png)
+![](./demos/user/2.png)
+![](./demos/user/3.png)
+![](./demos/user/4.png)
+
+### Admin Mode
+
+![](./demos/admin/1.png)
+![](./demos/admin/2.png)
+![](./demos/admin/3.png)
+![](./demos/admin/4.png)
+![](./demos/admin/5.png)
+![](./demos/admin/6.png)
 
 ## Features
 
@@ -8,7 +25,7 @@ A C++ program that simulates a vending machine with user and admin modes. This p
 
 -   Item Selection: Users can select items using unique selection codes.
 -   Payment: Pay using denominations (100 THB, 20 THB, 10 THB, 5 THB, 1 THB).
--   Stock Management: Automatically reduces stock by 1 after each purchase.
+-   Stock Management: Reduces stock by 1 after each purchase (Need to click Refresh Button).
 -   Payment Handling:
     -   Insufficient payment prompts users for additional money.
     -   Returns change upon successful payment.
@@ -21,45 +38,47 @@ A C++ program that simulates a vending machine with user and admin modes. This p
 ### Admin Mode:
 
 -   Initial Setup: Set initial stock levels for items.
--   Re-stocking: Refill item stocks as needed.
+-   Re-stocking: Refill item stocks as needed by Stock ID.
 -   Cash Management:
     -   Check balances in the change box and collection box.
     -   Collect money from the collection box and refill the change box.
 
 ## Installation
 
-1. Clone the repository:
+1.Prerequisites:
+
+- Qt Creator (Latest Version)
+- Qt 6.x
+- CMake 3.16+
+
+2. Clone the repository:
 
     ```bash
     git clone https://github.com/SawZiDunn/VendingMachineQt.git
+    cd vending-machine
     ```
 
-2. Go to Project Directory:
+## Build and Run
 
-    ```bash
-    $ cd vending-machine
-    ```
+1. Open in Qt Creator:
 
-3. Install SQLite3 (if not already installed).
+    - Open Qt Creator
+    - File -> Open File or Project
+    - Navigate to cloned repository and select **CMakeLists.txt**
 
-## How to Run
+2. Configure Project:
 
-1. Compile the program:
+   - Select appropriate kit (Desktop Qt 6.x)
+   - Click "Configure Project"
 
-    ```bash
-    g++ main.cpp -o vending_machine -lsqlite3
-    ```
 
-2. Run the program:
+3. Build & Run:
 
-    ```bash
-    ./vending_machine
-    ```
+   - Build: Press Ctrl+B (⌘+B on macOS)
+   - Run: Press Ctrl+R (⌘+R on macOS)
 
-3. Follow the prompts:
+4. Follow the prompts:
 
     - Choose between User Mode or Admin Mode.
 
     - Perform actions as prompted by the program.
-
-## Code Structure
