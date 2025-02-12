@@ -3,6 +3,9 @@
 This is a C++ GUI Application for Vending Machine Management with User and Admin modes. This project demonstrates SQLite database integration (a popular relational database) and QT which is a cross-platform GUI Framework.
 
 ## Screenshots
+
+![](./demos/1.png)
+
 ### User Mode
 
 ![](./demos/user/1.png)
@@ -17,7 +20,6 @@ This is a C++ GUI Application for Vending Machine Management with User and Admin
 ![](./demos/admin/3.png)
 ![](./demos/admin/4.png)
 ![](./demos/admin/5.png)
-![](./demos/admin/6.png)
 
 ## Features
 
